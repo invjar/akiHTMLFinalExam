@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Home</title>
+<style id="applicationStylesheet" type="text/css">
+
+    
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+    
+	.Home {
+		position: absolute;
+        width: 1366px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;       
+	}
+    
+    .top-part {
+        position: relative;
+        top: 1px;
+        left: 1px;
+        width: 99%;
+        height: 60px;
+        border-bottom: solid 1px #cecece;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(112,112,112,1);    
+    }
+    
+    
+	#Logo {
+		left: 10px;
+		top: 5px;
+		position: absolute;
+		width: 80px;
+	}
+    
+    
+	#Game-name {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 120px;
+		top: 20px;
+		position: absolute;
+		width: 302px;
+        font-family: sans-serif;
+        color: red;
+
+	}
+    
+    #Home {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 600px;
+		top: 20px;
+		position: absolute;
+		width: 81px;
+        cursor: pointer;
+
+	}
+    
+	#Consoles {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 700px;
+		top: 20px;
+		position: absolute;
+		width: 193px;
+        cursor: pointer;
+
+	}
+    
+	.Buy {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 850px;
+		top: 20px;
+		position: absolute;
+		width: 50px;
+        cursor: pointer;
+
+	}
+    
+    .mid-section {
+        position:relative;
+        padding-top: 1px;
+        font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+        width: 99%;
+        height: 840px;
+        
+    }
+    
+    .mid-left {
+        position: relative;
+        width: 20%;
+        height: 800px;
+        float: left;
+        padding-right: 10px;
+        padding-top: 10px;
+        /* border: solid 1px gray; */
+		white-space: nowrap;
+        font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		color: rgba(112,112,112,1);
+        
+        
+    }
+    
+    .game-div1 {
+        float: left;
+        border-bottom: solid 1px gray;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .game-div2 {
+        float: left;
+        border-bottom: solid 1px gray;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100px;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+    .game-div3 {
+        float: left;
+        border-bottom: solid 1px gray;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100px;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+    
+    .mid-right {
+        position: relative;
+        width: 80%;
+        height: 800px;
+        float: right;
+        padding-left: 80px;
+        padding-top: 10px;
+        padding-right: 50px;
+        font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+        /* border: solid 1px gray; */
+        
+        
+    }
+
+
+	#Nintendo_3DS {
+		left: 120px;
+		top: 40px;
+		position: absolute;
+		width: 209px;
+        text-align: left;
+		font-size: 20px;
+        
+    }
+
+
+	#Sony_PS4 {
+		left: 120px;
+		top: 140px;
+		position: absolute;
+		width: 205px;
+		text-align: left;
+		font-size: 20px;
+	}
+    
+	#Nintendo_Switch {
+		left: 120px;
+		top: 240px;
+		position: absolute;
+		width: 209px;
+		text-align: left;
+		font-size: 20px;
+	}
+    
+
+    #X3DS {
+		position: absolute;
+		width: 80px;
+		left: 30px;
+		top: 20px;
+		overflow: visible;
+	}
+    
+
+	#PS4 {
+		position: absolute;
+		width: 80px;
+		left: 30px;
+		top: 120px;
+		overflow: visible;
+	}
+    
+	#switch {
+		position: absolute;
+		width: 80px;
+		left: 30px;
+		top: 220px;
+		overflow: visible;
+	}
+    
+    
+    
+	#home-page-content {
+		left: 600px;
+		top: 210px;
+		position: absolute;
+		overflow: visible;
+		width: 271px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(112,112,112,1);
+	}
+
+    .mainPage {
+            
+    }
+    
+    .smash {
+        width: 400px;
+    }
+    
+    .crossing {
+        width: 400px;
+    }
+    
+</style>
+
+</head>
+    
+    
+<body>
+<div class="Home">
+
+
+
+	<div class = "top-part">
+
+        <div id="Logo">
+            <img id="Logo" src="coffee.png" srcset="coffee.png 1x, coffee@2x.png 2x">
+        </div>
+
+        <div id="Game-name">
+            <span>[Review Ninja]</span>
+        </div>
+
+        <div id="Home" onclick="location.href='HomevFinal.html'">
+            <span>Home</span>
+        </div>
+
+        <div id="Consoles" onclick="location.href='https://www.nintendo.com/switch/buy-now/?cid=A1000-01:ch=pdpd'" target="_blank">
+            <span>Nintendo</span>
+        </div>
+
+        <div class="Buy" onclick="location.href='http://www.amazon.com'">
+            <span>Buy</span>
+        </div>
+	
+    </div>
+
+
+    
+    <div class = "mid-section">
+        
+        <div class = "mid-left">
+            
+            <div class = game-div1 onclick="location.href='3DS.html'">
+                <div id="Nintendo_3DS">
+                    <span>Nintendo 3DS</span>
+                </div>   
+                <img id="X3DS" src="3ds.png">
+                   
+            </div>
+            
+            <div class = game-div2 onclick="location.href='PS4.html'">
+
+                <div id="Sony_PS4">
+                    <span>Sony PS4</span>
+                </div>
+                <img id="PS4" src="PS4.png">
+            </div>
+
+            <div class = game-div3 onclick="location.href='Switch.html'">
+
+                <div id="Nintendo_Switch">
+                    <span>Nintendo Switch</span>
+                </div>
+
+                <img id="switch" src="SwitchCol.png">
+            </div>
+        </div>
+
+
+        <div class="mid-right">
+            <p class = "home-page-content">
+
+                The Nintendo Switch is a video game console developed by Nintendo, released worldwide in most regions on March 3, 2017. It is a hybrid console that can be used as a home console and portable device. The Nintendo Switch's design is aimed at a wide demographic of video game players through multiple modes of use.<br>
+                <br>
+                Some popular exclusives on the switch include
+                <ul>
+                <li><a href = "https://www.smashbros.com/en_US/">Super Smash Bros. Ultimate</a></li>
+                <li><a href = "https://www.animal-crossing.com/new-horizons/">Animal Crossing New Horizons</a></li>
+                </ul>
+                <br>
+                <b>Super Smash Bros. Ultimate</b> is a fighting game for up to eight players in which characters from Nintendo games and other third-party franchises must try to knock each other out of an arena. The game features 103 different stages and 74 fighers.
+                <br>
+                <br>
+                <b>Animal Crossing: New Horizons</b> is a 2020 life simulation video game developed and published by Nintendo for the Nintendo Switch. You play as a villager on a deserted island.
+                <img class = "smash" src = "bros.jpg">
+                <img class = "crossing" src = "newhorizons.jpg">
+
+
+            </p>
+        </div>
+    </div>
+    
+    
+</div>
+</body>
+</html>

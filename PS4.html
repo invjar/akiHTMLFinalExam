@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Home</title>
+<style id="applicationStylesheet" type="text/css">
+
+    
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+    
+	.Home {
+		position: absolute;
+        width: 1366px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;       
+	}
+    
+    .top-part {
+        position: relative;
+        top: 1px;
+        left: 1px;
+        width: 99%;
+        height: 60px;
+        border-bottom: solid 1px #cecece;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(112,112,112,1);    
+    }
+    
+    
+	#Logo {
+		left: 10px;
+		top: 5px;
+		position: absolute;
+		width: 80px;
+	}
+    
+    
+	#Game-name {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 120px;
+		top: 20px;
+		position: absolute;
+		width: 302px;
+        font-family: sans-serif;
+        color: red;
+
+	}
+    
+    #Home {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 600px;
+		top: 20px;
+		position: absolute;
+		width: 81px;
+        cursor: pointer;
+
+	}
+    
+	#Consoles {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 730px;
+		top: 20px;
+		position: absolute;
+		width: 193px;
+        cursor: pointer;
+
+	}
+    
+	.Buy {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 850px;
+		top: 20px;
+		position: absolute;
+		width: 50px;
+        cursor: pointer;
+
+	}
+    
+    .mid-section {
+        position:relative;
+        padding-top: 1px;
+        font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+        width: 99%;
+        height: 840px;
+        
+    }
+    
+    .mid-left {
+        position: relative;
+        width: 20%;
+        height: 800px;
+        float: left;
+        padding-right: 10px;
+        padding-top: 10px;
+        /* border: solid 1px gray; */
+		white-space: nowrap;
+        font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		color: rgba(112,112,112,1);
+        
+        
+    }
+    
+    .game-div1 {
+        float: left;
+        border-bottom: solid 1px gray;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .game-div2 {
+        float: left;
+        border-bottom: solid 1px gray;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100px;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+    .game-div3 {
+        float: left;
+        border-bottom: solid 1px gray;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100px;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+    
+    .mid-right {
+        position: relative;
+        width: 80%;
+        height: 800px;
+        float: right;
+        padding-left: 80px;
+        padding-top: 10px;
+        padding-right: 50px;
+        font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+        /* border: solid 1px gray; */
+        
+        
+    }
+
+
+	#Nintendo_3DS {
+		left: 120px;
+		top: 40px;
+		position: absolute;
+		width: 209px;
+        text-align: left;
+		font-size: 20px;
+        
+    }
+
+
+	#Sony_PS4 {
+		left: 120px;
+		top: 140px;
+		position: absolute;
+		width: 205px;
+		text-align: left;
+		font-size: 20px;
+	}
+    
+	#Nintendo_Switch {
+		left: 120px;
+		top: 245px;
+		position: absolute;
+		width: 209px;
+		text-align: left;
+		font-size: 20px;
+	}
+    
+
+    #X3DS {
+		position: absolute;
+		width: 80px;
+		left: 30px;
+		top: 20px;
+		overflow: visible;
+	}
+    
+
+	#PS4 {
+		position: absolute;
+		width: 80px;
+		left: 30px;
+		top: 120px;
+		overflow: visible;
+	}
+    
+	#switch {
+		position: absolute;
+		width: 80px;
+		left: 30px;
+		top: 220px;
+		overflow: visible;
+	}
+    
+    
+    
+	#home-page-content {
+		left: 600px;
+		top: 210px;
+		position: absolute;
+		overflow: visible;
+		width: 271px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(112,112,112,1);
+	}
+
+    .uncharted {
+        width: 440px;
+    }
+    
+    .gow {
+        width: 475px;
+    }
+
+    .mainPage {
+        
+    }
+    
+</style>
+
+</head>
+    
+    
+<body>
+<div class="Home">
+
+
+
+	<div class = "top-part">
+
+        <div id="Logo">
+            <img id="Logo" src="coffee.png" srcset="coffee.png 1x, coffee@2x.png 2x">
+        </div>
+
+        <div id="Game-name">
+            <span>[Review Ninja]</span>
+        </div>
+
+        <div id="Home" onclick="location.href='HomevFinal.html'">
+            <span>Home</span>
+        </div>
+
+        <div id="Consoles" onclick="location.href='https://www.playstation.com/en-us/explore/ps4/'" target="_blank">
+            <span>Sony</span>
+        </div>
+
+        <div class="Buy" onclick="location.href='http://www.amazon.com'">
+            <span>Buy</span>
+        </div>
+	
+    </div>
+
+
+    
+    <div class = "mid-section">
+        
+        <div class = "mid-left">
+            
+            <div class = game-div1 onclick="location.href='3DS.html'">
+                <div id="Nintendo_3DS">
+                    <span>Nintendo 3DS</span>
+                </div>   
+                <img id="X3DS" src="3ds.png">
+                   
+            </div>
+            
+            <div class = game-div2 onclick="location.href='PS4.html'">
+
+                <div id="Sony_PS4">
+                    <span>Sony PS4</span>
+                </div>
+                <img id="PS4" src="PS4Col.jpg">
+            </div>
+
+            <div class = game-div3 onclick="location.href='Switch.html'">
+
+                <div id="Nintendo_Switch">
+                    <span>Nintendo Switch</span>
+                </div>
+
+                <img id="switch" src="switch.png">
+            </div>
+        </div>
+
+
+        <div class="mid-right">
+            <p class = "home-page-content">
+
+                    The PlayStation 4 (officially abbreviated as PS4) is an eighth-generation home video game console developed by Sony Computer Entertainment.
+                    <br>
+                    <br>
+                    Some popular exclusives for the ps4 include
+                    <ul>
+                        <li><a href = "https://www.playstation.com/en-us/games/uncharted-4-a-thiefs-end-ps4/" target = "_blank">Uncharted</a></li>
+                        <li><a href = "https://www.playstation.com/en-us/games/god-of-war-ps4/" target = "_blank">God of War</a></li>
+                    </ul>
+                    <br>
+                    <b>Uncharted</b> is an action-adventure game series developed by Naughty Dog and published by Sony Interactive Entertainment for PlayStation consoles. The main series of games follows Nathan Drake, a treasure hunter who travels across the world to uncover various historical mysteries
+                    <br>
+                    <br>
+                    <b>God of War</b> is an action-adventure game franchise created by David Jaffe at Sony's Santa Monica Studio. Based in ancient mythology, the story follows Kratos, a Spartan warrior who was tricked into killing his family by his former master, the Greek God of War Ares.
+                    <br>
+                    <br>
+                    <img class = "uncharted" src = "unchartedphoto.png">
+                    <img class = "gow" src = "godofwar.jpg">
+
+
+            </p>
+        </div>
+    </div>
+    
+    
+</div>
+</body>
+</html>
